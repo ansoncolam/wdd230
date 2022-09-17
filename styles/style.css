@@ -1,9 +1,0 @@
-body {
-    display: grid;
-    grid-template-columns: 100px;
-}
-
-.pic {
-    width: 10px;
-    height: 10px;
-}

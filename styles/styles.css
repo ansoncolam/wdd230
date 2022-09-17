@@ -1,0 +1,14 @@
+
+.header{
+    background-color: darkblue;
+    width: 700px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+.pic {
+    width: 70%;
+}
