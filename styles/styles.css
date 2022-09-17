@@ -1,14 +1,40 @@
-
-.header{
-    background-color: darkblue;
-    width: 700px;
-    height: 250px;
+.header {
+    border-radius: 25px;
+    background-color: goldenrod;
+    color: white;
+    width: 500px;
+    height: 160px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    color: white;
+    box-shadow: 5px 5px 10px #6f7364;
 }
+.footer {
+    border-radius: 25px;
+    background-color: goldenrod;
+    color: white;
+    width: 500px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+footer p {
+    margin: 0px 0px;
+}
+
 .pic {
-    width: 70%;
+    width: 60%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+h1 {
+    text-shadow: 2px 2px gray;
+}
+hr {
+    width: 500px;
+    margin-left: 0px;
 }
