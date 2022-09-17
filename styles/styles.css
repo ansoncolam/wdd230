@@ -17,8 +17,7 @@
     width: 500px;
     height: 100px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     box-shadow: 5px 5px 10px #6f7364;
@@ -26,7 +25,11 @@
 footer p {
     margin: 0px 0px;
 }
-
+footer h2{
+    margin: 0px 0px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 .pic {
     width: 60%;
     box-shadow: 5px 5px 10px #6f7364;
