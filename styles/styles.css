@@ -39,3 +39,9 @@ hr {
 footer p {
     margin: 0px 0px;
 }
+header {
+    font-family: 'Kanit', sans-serif;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
