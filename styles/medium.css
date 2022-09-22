@@ -1,10 +1,16 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 32.5em) {
     .header {
-        background-color: lightblue;
-        color: darkblue;
+        background-color: lightskyblue;
+        color: darkcyan;
     }
     .footer {
-        background-color: lightblue;
-        color: darkblue;
+        background-color: lightskyblue;
+        color: darkcyan;
+    }
+    .pic {
+        width: 15em;
+    }
+    main ul {
+        font-size: 1.7em;
     }
 }

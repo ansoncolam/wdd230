@@ -1,19 +1,9 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 62.5em) {
     .header {
-        display: grid;
         grid-template-columns: 1fr;
-        background-color: palegreen;
-        color: darkgreen;
-    }
-    .footer {
-        background-color: palegreen;
-        color: darkgreen;
     }
     .pic {
-        width: 350px;
-        margin: 20px;
-    }
-    h1 {
-        margin: 20px;
+        width: 300px;
+        margin: 20px 0px;
     }
 }
