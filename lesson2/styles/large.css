@@ -4,9 +4,9 @@
     }
     .section_full {
         grid-column: auto;
-        grid-template-rows: 40px 40px 40px 1fr 260px;
+        grid-template-rows: 40px 40px 40px 1fr 270px;
     }
     section {
-        grid-template-rows: 40px 40px 40px 1fr 260px;
+        grid-template-rows: 40px 40px 40px 1fr 270px;
     }
 }
