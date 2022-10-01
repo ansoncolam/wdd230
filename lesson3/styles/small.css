@@ -80,3 +80,6 @@ nav a:hover {
 .footer_time {
     color: blue;
 }
+footer p {
+    margin: 8px 8px;
+}
