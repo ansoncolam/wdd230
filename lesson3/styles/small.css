@@ -50,22 +50,6 @@ main {
 main div {
     margin-bottom: 50px;
 }
-/* 
-header {
-    display: grid;
-    grid-template-columns: auto;
-    background: yellow;
-}
-#logo_link {
-    padding-top: 5px;
-    padding-left: 1px;
-    justify-self: center;
-    align-self: center;
-}
-.logo {
-    width: 200px;
-} */
-
 nav {
     background-color: #f7f0c1;
     text-align: center;
