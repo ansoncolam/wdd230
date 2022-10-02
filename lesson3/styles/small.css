@@ -37,6 +37,7 @@
     padding: 10px;
     margin: 1px;
     width: 400px;
+    color: white;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Hind Siliguri', sans-serif;
@@ -67,7 +68,8 @@ nav a {
 }
 nav a:hover {
     background: #F4CF4E;
-    color: #f9f9f1;
+    color: #F9F9F1;
+    font-weight: bold;
 }
 .footer {
     background-color: #f7f0c1;
