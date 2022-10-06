@@ -29,7 +29,7 @@
         grid-column: 1/6;
     }
     .hidden {
-        display: flexbox;
+        display: unset;
     }
     section div {
         width: 100%;
