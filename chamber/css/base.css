@@ -116,7 +116,7 @@ main section {
 .sect5 {
     grid-row: 5/6;
 }
-.sect6 {
+.hidden {
     display: none;
 }
 section div {
