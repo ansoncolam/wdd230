@@ -116,12 +116,12 @@ main section {
 .sect5 {
     grid-row: 5/6;
 }
+.sect6 {
+    display: none;
+}
 section div {
     border: 1px solid black;
     padding: 10px;
-}
-.sect6 {
-    display: none;
 }
 
 /* footer */
