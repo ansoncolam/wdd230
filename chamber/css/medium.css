@@ -25,7 +25,7 @@
         flex-direction: row;
     }
     .sect6 {
-        display: block;
+        display: flexbox;
         grid-row: 4/5;
         grid-column: 1/6;
     }
