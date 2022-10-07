@@ -1,5 +1,5 @@
 let text = document.lastModified;
-document.getElementById("lastmodified").innerHTML = text;
+document.getElementById("lastmodified").innerHTML = "Last Modification: " + text;
 
 const datefield = document.getElementById("header_date");
 const now = new Date();
