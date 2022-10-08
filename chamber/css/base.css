@@ -33,7 +33,7 @@ header {
 }
 #header_date {
     margin: 15px;
-    font-weight: bold;
+    font-size: 0.8rem;
 }
 #header_logo {
     width: 60px;
@@ -46,9 +46,12 @@ header {
     grid-row: 1/2;
     margin: 2px;
 }
+.container_hm {
+    display: none;
+}
 div button {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     font-size: 1.2rem;
     background: transparent;
     border: 1px solid #B7B7B7;
@@ -69,6 +72,7 @@ nav ul li a {
     text-decoration: none;
     color: #505050;
     border-top: 1px solid #B7B7B7;
+    font-size: 0.8rem;
 }
 nav ul li a:hover {
     background: #505050;
@@ -150,11 +154,11 @@ main section {
 footer hr {
     width: 95%;
 }
-.fsect3 div {
+.fsect3 section div {
     display: grid;
     justify-items: center;
     margin: 1px;
 }
-.fsect4 {
+.fsect3_2 {
     display: none;
 }

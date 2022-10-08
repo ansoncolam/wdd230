@@ -1,21 +1,33 @@
 @media only screen and (min-width: 64rem) {
     header div button {display: none;}
-
-    nav ul li a {
+    .container_hm {
+        display: flex;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-content: space-evenly;
+        align-items: center;
+        font-size: 1rem;
+    }
+    .container_hm a {
+        color: #505050;
+        text-decoration: none;
+    }
+    header {
+        grid-template-columns: 60px 1fr 1fr auto;
+    }
+    /* nav ul li a {
         padding: .5rem 1rem;
     }
-
     nav ul#primaryNav {
         display: flex;
         margin-left: 2vw;
         border-left: 1px solid rgba(0,0,0,0.3);
     }
-
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
 
-    }
+    } */
 
     main {
         grid-template-columns: repeat(4, 1fr);
@@ -53,5 +65,8 @@
     .sect6 {
         grid-row: 3/4;
         grid-column: 1/2;
+    }
+    .fsect3 {
+        display: flex;
     }
 }
