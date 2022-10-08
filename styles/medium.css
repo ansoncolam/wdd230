@@ -1,5 +1,9 @@
 @media only screen and (min-width: 35rem) {
-    main {
-        background: red;
+    body {
+        display: grid;
+        grid-template-columns: 1fr 35rem 1fr;
+    }
+    header, main, footer {
+        grid-column: 2/3;
     }
 }
