@@ -15,7 +15,7 @@
     header {
         grid-template-columns: 60px 1fr 1fr auto;
     }
-    nav {
+    #primaryNav {
         display: none;
     }
     /* nav ul li a {
