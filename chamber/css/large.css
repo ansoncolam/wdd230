@@ -15,9 +15,8 @@
     header {
         grid-template-columns: 60px 1fr 1fr auto;
     }
-    #primaryNav {
-        display: none;
-    }
+    nav ul.open {display: none;}
+
     /* nav ul li a {
         padding: .5rem 1rem;
     }
