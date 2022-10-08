@@ -149,7 +149,7 @@ main section {
 .fsect2 div {
     display: grid;
     justify-content: center;
-    margin: 10px;
+    margin: 15px;
 }
 footer hr {
     width: 95%;
