@@ -15,12 +15,18 @@ header {
     background-color: transparent;
     font-size: 0.8rem;
 }
+header div h1, header div h2 {
+    position: relative;
+    left: 20px;
+}
 .container {
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-evenly;
     align-items: center;
+    position: relative;
+    left: 10px;
 }
 .container_sp {
     grid-column: 1/6;
