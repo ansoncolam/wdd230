@@ -17,3 +17,12 @@ function toggleMenu() {
 
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
+
+// banner
+var banner = document.createElement("div");
+banner.className = "b";
+banner.innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+
+if (now.getDay() == 1 || now.getDay() == 2) {
+    document.body.insertBefore(banner,document.body.childNodes[0]);
+}
