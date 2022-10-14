@@ -32,7 +32,7 @@
     } */
 
     main {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 0.8fr 1fr 1fr 0.8fr;
     }
 
     .sect1 {
