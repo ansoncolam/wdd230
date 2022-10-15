@@ -263,7 +263,7 @@ main section {
 footer hr {
     width: 95%;
 }
-.fsect3 section div {
+.fsect3 div div {
     display: grid;
     justify-items: center;
     margin: 1px;
