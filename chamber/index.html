@@ -13,13 +13,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="js/javascript.js" defer></script>
+    <script src="js/windchill.js" defer></script>
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
     <div>
         <header>
             <div class="container">
-                <a href="https://ansoncolam.github.io/wdd230/chamber/index.html"><img id="header_logo" src="images/chamberlogo_1.jpg" alt="Tolo Chamber Logo"></a>
+                <a href="https://ansoncolam.github.io/wdd230/chamber/index.html"><img id="header_logo" src="images/chamberlogo_1.webp" alt="Tolo Chamber Logo"></a>
             </div>
             <div>
                 <h1>Tolo Chamber</h1>
@@ -56,7 +57,6 @@
                 images/small.jpeg 1200w,
                 images/large.jpeg 2000w,
                 images/medium.jpeg 2500w"
-
                 src="images/wdd230-org.jpeg" alt="Tolo area">
                 <h2>Welcome to Tolo Chamber</h2>
                 <div class="btnbox">
@@ -71,8 +71,22 @@
             </section>
             <section class="sect3">
                 <h2>Today's Weather</h2>
-                <img src="images/sunny.png" alt="today's weather">
-                <h2>28°C Sunny</h2>
+                <div>
+                    <img src="images/sunny.png" alt="today's weather">
+                    <span id="temperature">33</span>
+                    <span>°C</span>
+                </div>
+                <h2>Sunny</h2>
+                <hr>
+                <div>
+                    <span>Wind Speed:&nbsp</span>
+                    <span id="windspeed">2.5</span>
+                    <span>km/h</span>
+                </div>
+                <div>
+                    <span>Wind Chill:&nbsp</span>
+                    <span id="windchill"></span>
+                </div>
             </section>
             <section class="sect4">
                 <h2>News Release</h2>
@@ -113,7 +127,7 @@
         </main>
         <footer class="footer">
             <div class="fsect1">
-                <img src="images/chamberlogo.jpg" alt="Logo">
+                <img src="images/chamberlogo.webp" alt="Logo">
             </div>
             <div class="fsect2">
                 <div>40 Wan Tau Kok Lane</div>

@@ -193,18 +193,31 @@ main section {
     grid-row: 3/4;
     display: grid;
     grid-template-columns: 1fr;
+    text-align: center;
 }
-.sect3 img {
-    margin: 10px;
+.sect3 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.sect3 div img {
     width: 40%;
-    grid-row: 2/3;
     justify-self: center;
     align-self: center;
+    padding: 10px;
+}
+.sect3 div h2 {
+    padding: 10px;
 }
 .sect3 h2 {
-    text-align: center;
-    align-self: center;
+    padding: 10px;
+    margin: 0px;
 }
+.sect3 hr {
+    width: 95%;
+}
+
 
 
 /* news section */

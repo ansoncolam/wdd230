@@ -41,14 +41,19 @@
         grid-column: 2/4;
     }
     .sect1 h2 {
-        margin: 0px;
         justify-self: center;
+        grid-row: 2/3;
+    }
+    .sect1 img {
+        grid-row: 3/4;
     }
     .sect1 div {
         margin: 0px;
-        grid-row: 3/4;
+        grid-row: 4/5;
         grid-column: 1/3;
         justify-self: center;
+        position: relative;
+        bottom: 100px;
     }
     .sect2 {
         grid-row: 1/2;
