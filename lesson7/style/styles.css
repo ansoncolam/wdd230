@@ -1,0 +1,8 @@
+picture {
+    display: block;
+    width: 400px;
+    height: 300px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 5px;
+}
