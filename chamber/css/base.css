@@ -287,8 +287,12 @@ footer hr {
 
 #discover {
     display: block;
+    margin: 40px;
+    padding: 40px;
 }
-
+#discover h1 {
+    text-align: center;
+}
 #discover figure img {
     width: 100%;
 }
