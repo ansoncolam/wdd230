@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="js/javascript.js" defer></script>
-    <script src="js/windchill.js" defer></script>
+    <script src="js/lazyload.js" defer></script>
+    <script src="js/countvisit.js" defer></script>
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
@@ -51,79 +52,27 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <section class="sect1">
-                <img srcset="
-                images/small.jpeg 800w,
-                images/medium.jpeg 1700w,
-                images/large.jpeg 2000w"
-                src="images/wdd230-org.jpeg" alt="Tolo area">
-                <h2>Welcome to Tolo Chamber</h2>
-                <div class="btnbox">
-                    <a class="btncontent" href="join.html">Join the Chamber</a>
-                </div>
-            </section>
-            <section class="sect2">
-                <h2>Up coming events</h2>
-                <ul>
-                    <li>coming soon...</li>
-                </ul>
-            </section>
-            <section class="sect3">
-                <h2>Today's Weather</h2>
-                <div>
-                    <img src="images/sunny.png" alt="today's weather">
-                    <span id="temperature">33</span>
-                    <span>°C</span>
-                </div>
-                <h2>Sunny</h2>
-                <hr>
-                <div>
-                    <span>Wind Speed:&nbsp</span>
-                    <span id="windspeed">2.5</span>
-                    <span>km/h</span>
-                </div>
-                <div>
-                    <span>Wind Chill:&nbsp</span>
-                    <span id="windchill"></span>
-                </div>
-            </section>
-            <section class="sect4">
-                <h2>News Release</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloribus voluptatibus numquam perspiciatis cum soluta sed laboriosam in rem velit quia sint, fugiat minima reprehenderit suscipit aliquam corrupti, totam molestias.</p>
-            </section>
-            <section class="sect5">
-                <div>
-                    <h2>Awesome Stationary</h2>
-                    <img src="images/shoplogo.png" alt="Shop Logo">
-                    <p>Your everyday essentials</p>
-                    <hr>
-                    <p>contact@awesome.com</p>
-                    <p>+852-9999-9999 | <a href="#">Website</a></p>
-                </div>
-                <div>
-                    <h2>Fast Move</h2>
-                    <img src="images/shoplogo2.jpeg" alt="Shop Logo">
-                    <p>Let's get things moving!</p>
-                    <hr>
-                    <p>info@fastmove.com</p>
-                    <p>+852-9999-9999 | <a href="#">Website</a></p>
-                </div>
-                <div class="div1">
-                    <h2>Mum's Kitchen</h2>
-                    <img src="images/shoplogo3.jpeg" alt="Shop Logo">
-                    <p>Taste the love</p>
-                    <hr>
-                    <p>reservation@mumskitchen.com</p>
-                    <p>+852-9999-9999 | <a href="#">Website</a></p>
-                </div>
-            </section>
-            <section class="sect6">
-                <h2>Discover how Tolo Chamber can beneif your orgaziation and more!</h2>
-                <div clsss="btnbox">
-                    <a class="btncontent" href="join.html">Join Us!</a>
-                </div>
-            </section>
+        <main id="discover">
+            <figure>
+                <img src="images/discover/placeholder.png" data-src="images/discover/maonshan.jpeg" alt="Ma On Shan District">
+                <figcaption>Ma On Shan is along the eastern coast of Tolo Harbour area. With a population of 200,000 estimated, Ma On Shan was an extension of Sha Tin District.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/discover/placeholder.png" data-src="images/discover/mospark.jpeg" alt="Ma On Shan Park">
+                <figcaption>Ma On Shan Park is located near the town centre of Ma On Shan. It occupies 14 acres of land and provides a place for residents to visit for leisure.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/discover/placeholder.png" data-src="images/discover/newtownplaza.jpeg" alt="New Town Plaza in Sha Tin">
+                <figcaption>New Town Plaza is one of the biggest shopping centre in Sha Tin District. Since there are many transportation (buses and trains) link to New Town Plaza which make it the most busiest place during weekend.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/discover/placeholder.png" data-src="images/discover/shatin.jpeg" alt="Sha Tin Racecourse">
+                <figcaption>Being one of the two racecourses for horse racing in Hong Kong, Sha Tin Racecourse is a popular symbol for Sha Tin District.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/discover/placeholder.png" data-src="images/discover/taipopark.jpeg" alt="Tai Po Waterfront Park">
+                <figcaption>Tai Po Waterfront Park is located along the Tolo Harbour; it is famous for its lookout tower (above picture) which gives visitors a panoramic view over Tolo Harbour.</figcaption>
+            </figure>
         </main>
         <footer class="footer">
             <div class="fsect1">

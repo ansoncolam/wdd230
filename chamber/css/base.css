@@ -2,7 +2,7 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Hind Siliguri', sans-serif;
 }
-p, ul, div, .b {
+p, ul, div, .b figcaption {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -283,4 +283,12 @@ footer hr {
 }
 .fsect3_2 {
     display: none;
+}
+
+#discover {
+    display: block;
+}
+
+#discover figure img {
+    width: 100%;
 }
