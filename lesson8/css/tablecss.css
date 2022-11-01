@@ -1,0 +1,27 @@
+table {
+	margin: 10px auto;
+	border: 1px solid black;
+    box-shadow: 0 0 30px;
+    border-collapse: collapse;
+    width: 80%;
+}
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: .85rem;
+}
+thead, tfoot {
+	background-color: #F4CF4E;
+}
+tbody {
+	color: #505050;
+}
+th, td {
+	padding: 7px 15px;
+	border: 1px solid black;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #F7F0C1;
+}
