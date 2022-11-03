@@ -26,3 +26,5 @@ banner.innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesd
 if (now.getDay() == 1 || now.getDay() == 2) {
     document.body.insertBefore(banner,document.body.childNodes[0]);
 }
+
+document.getElementById("formDateTime").innerHTML = new Date();
