@@ -298,9 +298,6 @@ footer hr {
 
 
 /* form */
-#formDateTime {
-    display: none;
-}
 #thankMain h1, #thankMain p {
     padding-left: 10px;
     grid-column: 1/6;
@@ -355,4 +352,10 @@ th, td {
 }
 tbody tr:nth-child(even) {
 	background-color: #F7F0C1;
+}
+tbody tr td {
+    text-align: left;
+}
+tbody ul {
+    padding-left: 15px;
 }

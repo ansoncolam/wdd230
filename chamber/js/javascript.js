@@ -27,4 +27,5 @@ if (now.getDay() == 1 || now.getDay() == 2) {
     document.body.insertBefore(banner,document.body.childNodes[0]);
 }
 
-document.getElementById("formDateTime").innerHTML = new Date();
+// form
+document.getElementById("formDateTime").innerHTML = now;

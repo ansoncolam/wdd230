@@ -19,7 +19,7 @@
     <div>
         <header>
             <div class="container">
-                <img id="header_logo" src="images/chamberlogo_1.jpg" alt="Tolo Chamber Logo">
+                <a href="index.html"><img id="header_logo" src="images/chamberlogo_1.webp" alt="Tolo Chamber Logo"></a>
             </div>
             <div>
                 <h1>Tolo Chamber</h1>
@@ -52,7 +52,6 @@
         </header>
         <main id="joinMain">
             <form method="get" action="thankyou.html">
-                <div id="formDateTime"></div>
                 <h1>Tolo Chamber Membership Application</h1>
                 <fieldset>
                     <h2>Applicant Information</h2>
@@ -65,10 +64,10 @@
                 </fieldset>
                 <fieldset>
                     <h2>Membership Level</h2>
-                    <label class="sbs"><input type="radio" name="membership" value="np"> HK$0 Non Profit Organization (NP) Membership</label>
-                    <label class="sbs"><input type="radio" name="membership" value="bronze"> HK$1000 Bronze Membership</label>
-                    <label class="sbs"><input type="radio" name="membership" value="silver"> HK$2000 Silver Membership</label>
-                    <label class="sbs"><input type="radio" name="membership" value="gold"> HK$3000 Gold Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="np"> HK$500 Non Profit Organization (NP) Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> HK$1,000 Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> HK$2,000 Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> HK$3,000 Gold Membership</label>
                     <table class="benefit">
                         <thead>
                             <tr>
@@ -124,6 +123,7 @@
                 </fieldset>
                 <fieldset>
                     <input type="submit" value="Join Tolo Chamber" class="submitBtn">
+                    <input id="formDateTime" type="hidden" name="fdatetime">
                 </fieldset>
             </form>
         </main>
