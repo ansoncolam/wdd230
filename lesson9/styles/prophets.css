@@ -1,0 +1,29 @@
+body header, body footer {
+    text-align: center;
+}
+main div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    grid-gap: 5px;
+    text-align: center;
+}
+main div section {
+    border: 1px solid black;
+    background-color: lightblue;
+}
+main div section img {
+    width: 280px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kanit', sans-serif;
+    color: blue;
+    margin: 0px;
+    margin-top: 10px;
+}
+div {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px;
+}
+.cards {
+    box-shadow: 0 0 30px #777;
+}
