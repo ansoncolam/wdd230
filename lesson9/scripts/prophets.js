@@ -38,14 +38,6 @@ function displayProphets(prophet) {
       ordinal = "th";
     }
 
-    if (prophet.order == 11) {
-      ordinal = "st";
-    } else if (prophet.order == 12) {
-      ordinal = "nd";
-    } else if (prophet.order == 13) {
-      ordinal = "rd";
-    }
-
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
 
