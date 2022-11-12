@@ -370,13 +370,44 @@ tbody ul {
     text-align: center;
     padding: 10px;
 }
-main .cards {
+.cards section {
+    border: 1px groove #F4CF4E;
+    margin: 10px;
+}
+.menu {
+    padding: 5px;
+}
+.menu button {
+    width: 100px;
+    background-color: #F7F0C1;
+    color: #505050;
+}
+.menu button:hover {
+    background: #505050;
+    color: #F9F9F1;
+    font-weight: bold;
+}
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 5px;
     text-align: center;
 }
-.cards section {
-    border: 1px groove #F4CF4E;
-    margin: 10px;
+.list {
+	display: flex;
+	flex-direction: column;
+}
+.list section {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    min-width: 1000px;
+}
+.list section img {
+    display: none;
+}
+.list section a {
+    display: none;
 }
