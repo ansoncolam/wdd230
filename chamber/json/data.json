@@ -1,12 +1,76 @@
 {
     "companies": [
         {
-            "name": "Foodverse",
-            "address": "123 Street",
-            "phone": "+852-1234-5678",
-            "url": "www.foodverse.com",
-            "img": ".images/comp_icon/comp1.gif",
+            "name": "Your Electrician",
+            "address": "123 Shock Street, Sha Tin",
+            "phone": "+852-1111-2222",
+            "url": "www.yourelectrician.com",
+            "img": "./images/comp_icon/comp1.jpeg",
             "membership": "Gold"
+        },
+        {
+            "name": "Call Me Counsel",
+            "address": "321 Listen Road, Tai Po",
+            "phone": "+852-2222-3333",
+            "url": "www.callme.com",
+            "img": "./images/comp_icon/comp2.jpeg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Rocket Pizza",
+            "address": "12 Yum Road, Ma On Shan",
+            "phone": "+852-3333-4444",
+            "url": "www.rocketpizza.com",
+            "img": "./images/comp_icon/comp3.jpeg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Smart Lending",
+            "address": "34 Broke Lane, Sha Tin",
+            "phone": "+852-4444-5555",
+            "url": "www.smlending.com",
+            "img": "./images/comp_icon/comp4.jpeg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Fun world",
+            "address": "567 Happy Avenue, Sha Tin",
+            "phone": "+852-5555-6666",
+            "url": "www.fulworld.com",
+            "img": "./images/comp_icon/comp5.jpeg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Easy Finger",
+            "address": "234 Shao Street, Fo Tan",
+            "phone": "+852-6666-7777",
+            "url": "www.easyfinger.com",
+            "img": "./images/comp_icon/comp6.jpeg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Health Report",
+            "address": "432 Heal Road, Tai Po",
+            "phone": "+852-7777-8888",
+            "url": "www.healthreport.com",
+            "img": "./images/comp_icon/comp7.jpeg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Homework Helpers",
+            "address": "45 Do Street, Ma On Shan",
+            "phone": "+852-8888-9999",
+            "url": "www.hwhelpers.com",
+            "img": "./images/comp_icon/comp8.jpeg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Meet Target Company",
+            "address": "67 Think Street, Ma On Shan",
+            "phone": "+852-9999-0000",
+            "url": "www.meettarget.com",
+            "img": "./images/comp_icon/comp9.jpeg",
+            "membership": "Bronze"
         }
     ]
 }

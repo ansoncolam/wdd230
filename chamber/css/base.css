@@ -360,3 +360,23 @@ tbody tr td {
 tbody ul {
     padding-left: 15px;
 }
+
+/* directory */
+.cards section img {
+    width: 150px;
+}
+.dir_main {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+}
+main .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5px;
+    text-align: center;
+}
+.cards section {
+    border: 1px groove #F4CF4E;
+    margin: 10px;
+}
