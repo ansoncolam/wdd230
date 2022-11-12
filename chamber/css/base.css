@@ -407,6 +407,7 @@ tbody ul {
 }
 .list section h2, .list section div {
     margin: 10px 10px;
+    width: 200px;
 }
 .list section img, .list section a, .list section .membership {
     display: none;
