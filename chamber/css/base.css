@@ -403,11 +403,11 @@ tbody ul {
     justify-items: center;
     align-content: space-evenly;
     align-items: center;
-    min-width: 1000px;
+    font-size: 0.9rem;
 }
-.list section img {
-    display: none;
+.list section h2, .list section div {
+    margin: 10px 10px;
 }
-.list section a {
+.list section img, .list section a, .list section .membership {
     display: none;
 }

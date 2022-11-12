@@ -25,7 +25,9 @@ function displayCompanies(company) {
     phone.textContent = `${company.phone}`;
     url.textContent = `${company.url}`;
     url.setAttribute("href", `${company.url}`);
+
     membership.textContent = `Membership Level: ${company.membership}`;
+    membership.classList.add("membership");
 
     logo.setAttribute("src", company.img);
     logo.setAttribute("alt", `${company.name} logo`);
