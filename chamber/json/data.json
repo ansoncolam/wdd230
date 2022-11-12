@@ -1,0 +1,12 @@
+{
+    "companies": [
+        {
+            "name": "Foodverse",
+            "address": "123 Street",
+            "phone": "+852-1234-5678",
+            "url": "www.foodverse.com",
+            "img": ".images/comp_icon/comp1.gif",
+            "membership": "Gold"
+        }
+    ]
+}
