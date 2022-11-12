@@ -21,9 +21,9 @@ function displayCompanies(company) {
     let membership = document.createElement("div");
 
     h2.textContent = `${company.name}`;
-    address.textContent = `Address: ${company.address}`;
-    phone.textContent = `Phone: ${company.phone}`;
-    url.textContent = `Website: ${company.url}`;
+    address.textContent = `${company.address}`;
+    phone.textContent = `${company.phone}`;
+    url.textContent = `${company.url}`;
     url.setAttribute("href", `${company.url}`);
     membership.textContent = `Membership Level: ${company.membership}`;
 
