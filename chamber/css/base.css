@@ -229,6 +229,14 @@ figure img {
 figcaption {
     text-transform: capitalize;
     font-size: 1.5rem;
+    color: #F9F9F1;
+}
+.credit {
+    margin: 0px;
+}
+.credit a {
+    font-size: 0.8rem;
+    color: #F7F0C1;
 }
 
 /* news section */
@@ -259,7 +267,7 @@ figcaption {
     height: 70px;
 }
 .sect5 div a {
-    color: #F9F9F1;
+    color: #F7F0C1;
 }
 
 .sect6 {
