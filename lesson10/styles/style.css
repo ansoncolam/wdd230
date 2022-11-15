@@ -1,0 +1,20 @@
+figcaption {
+    text-transform: capitalize;
+    color: darkgoldenrod;
+}
+main {
+    text-align: center;
+    border: 1px solid black;
+    width: 500px;
+    border-radius: 25px;
+    background-color: bisque;
+}
+figure img {
+    width: 70px;
+}
+h1 {
+    text-shadow: 2px 2px darkorange;
+}
+p {
+    font-size: 1.2rem;
+}
