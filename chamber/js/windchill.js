@@ -1,5 +1,5 @@
 
-let temp_c = document.getElementById("temperature").innerHTML;
+let temp_c = document.getElementById("current-temp").innerHTML;
 let temp_f = (temp_c * 9 / 5) + 32;
 
 let speed_kmh = document.getElementById("windspeed").innerHTML;

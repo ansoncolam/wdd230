@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="js/javascript.js" defer></script>
+    <script src="js/weather.js" defer></script>
     <script src="js/windchill.js" defer></script>
     <link rel="shortcut icon" href="favicon.ico">
 </head>
@@ -70,18 +71,17 @@
                 </ul>
             </section>
             <section class="sect3">
-                <h2>Today's Weather</h2>
-                <div>
-                    <img src="images/sunny.png" alt="today's weather">
-                    <span id="temperature">33</span>
-                    <span>°C</span>
-                </div>
-                <h2>Sunny</h2>
+                <h2>Weather</h2>
+                <figure>
+                    <img src="" alt="" id="weather-icon" />
+                    <p><span id="current-temp"></span> &deg;C</p>
+                </figure>
+                <figcaption></figcaption>
                 <hr>
                 <div>
                     <span>Wind Speed:&nbsp</span>
-                    <span id="windspeed">2.5</span>
-                    <span>km/h</span>
+                    <span id="windspeed"></span>
+                    <span>m/s</span>
                 </div>
                 <div>
                     <span>Wind Chill:&nbsp</span>
