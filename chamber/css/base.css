@@ -223,7 +223,7 @@ main section {
 figure {
     margin: 0px;
 }
-figure img {
+#weatherimg {
     width: 100px;
     padding: 10px 30px;
 }
