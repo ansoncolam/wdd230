@@ -305,20 +305,21 @@ footer hr {
     display: none;
 }
 
+/* discover */
 #discover {
     display: block;
     margin: 40px;
     padding: 40px;
-}
-#discover h1 {
     text-align: center;
 }
 #discover figure img {
-    width: 100%;
+    width: 90%;
     padding: 10px 30px;
 }
-
-
+#discover figcaption {
+    margin-bottom: 15px;
+    text-align: center;
+}
 
 /* form */
 #thankMain h1, #thankMain p {
