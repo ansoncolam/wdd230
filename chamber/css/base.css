@@ -350,8 +350,8 @@ footer hr {
     display: block;
     padding: 0.75rem 0;
     color: #505050;
-    text-shadow: 2px 2px 1px #F4CF4E;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-style: italic;
 }
 fieldset h2 {
     color: #505050;
