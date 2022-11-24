@@ -22,7 +22,7 @@
             "phone": "+852-3333-4444",
             "url": "www.rocketpizza.com",
             "img": "./images/comp_icon/comp3.jpeg",
-            "membership": "Gold"
+            "membership": "Silver"
         },
         {
             "name": "Smart Lending",
@@ -54,7 +54,7 @@
             "phone": "+852-7777-8888",
             "url": "www.healthreport.com",
             "img": "./images/comp_icon/comp7.jpeg",
-            "membership": "Silver"
+            "membership": "Bronze"
         },
         {
             "name": "Homework Helpers",
