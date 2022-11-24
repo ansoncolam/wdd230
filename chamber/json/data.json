@@ -14,7 +14,7 @@
             "phone": "+852-2222-3333",
             "url": "www.callme.com",
             "img": "./images/comp_icon/comp2.jpeg",
-            "membership": "Gold"
+            "membership": "Bronze"
         },
         {
             "name": "Rocket Pizza",
@@ -30,7 +30,7 @@
             "phone": "+852-4444-5555",
             "url": "www.smlending.com",
             "img": "./images/comp_icon/comp4.jpeg",
-            "membership": "Gold"
+            "membership": "Bronze"
         },
         {
             "name": "Fun world",
@@ -38,7 +38,7 @@
             "phone": "+852-5555-6666",
             "url": "www.funworld.com",
             "img": "./images/comp_icon/comp5.jpeg",
-            "membership": "Gold"
+            "membership": "Silver"
         },
         {
             "name": "Easy Finger",
