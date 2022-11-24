@@ -58,6 +58,9 @@
                 images/small.jpg 800w,
                 images/medium.jpg 1700w,
                 images/large.jpg 2000w"
+                sizes="(max-width: 700px) 800px,
+                (max-width: 1500px) 1700px,
+                2000px"
                 src="images/hero.jpg" alt="Tolo area">
                 <h2>Welcome to Tolo Chamber</h2>
                 <div class="btnbox">
@@ -75,18 +78,18 @@
             <section class="sect3">
                 <h2>Local Weather</h2>
                 <figure>
-                    <img id="weatherimg" src="" alt="" id="weather-icon" />
+                    <img id="weatherimg" src="#" alt="weather-icon">
                     <p><span id="current-temp"></span> &deg;C</p>
                 </figure>
-                <figcaption id="wethercap"></figcaption>
+                <div id="weathercap"></div>
                 <hr>
                 <div>
-                    <span>Wind Speed:&nbsp</span>
+                    <span>Wind Speed:&nbsp;</span>
                     <span id="windspeed"></span>
                     <span>m/s</span>
                 </div>
                 <div>
-                    <span>Wind Chill:&nbsp</span>
+                    <span>Wind Chill:&nbsp;</span>
                     <span id="windchill"></span>
                 </div>
                 <hr>
@@ -125,7 +128,7 @@
             </section>
             <section class="sect6">
                 <h2>Discover how Tolo Chamber can beneif your orgaziation and more!</h2>
-                <div clsss="btnbox">
+                <div>
                     <a class="btncontent" href="join.html">Join Us!</a>
                 </div>
             </section>
