@@ -321,10 +321,11 @@ footer hr {
     text-align: center;
 }
 
-/* form */
+/* join form */
 #thankMain h1, #thankMain p {
     padding-left: 10px;
     grid-column: 1/6;
+    text-align: center;
 }
 #joinMain form {
     padding: 20px;
@@ -383,6 +384,40 @@ tbody tr td {
 }
 tbody ul {
     padding-left: 15px;
+}
+
+/* join form */
+#contactMain {
+    width: 100%;
+}
+
+#contactMain form {
+    padding: 20px;
+    grid-column: 1/6;
+    min-width: 50%;
+    justify-self: center;
+}
+#contactMain .top, .textarea {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+#contactMain .top input {
+    padding: 5px 2%;
+    border-radius: 5px;
+}
+#contactMain fieldset {
+    border: 0px;
+}
+#contactMain .sbs {
+    display: block;
+    padding: 0.75rem 0;
+    color: #505050;
+    font-size: 1.3rem;
+    font-style: italic;
 }
 
 /* directory */
