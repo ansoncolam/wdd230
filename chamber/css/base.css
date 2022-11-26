@@ -121,7 +121,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
 }
-main section {
+main section, main div {
     margin: 5px;
     padding: 10px;
 }
