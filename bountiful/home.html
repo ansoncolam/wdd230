@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/basic.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/menu.js" defer></script>
-
+    <script src="scripts/footer.js" defer></script>
 </head>
 <body>
     <header>
@@ -37,20 +38,27 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="home_main">
         <div class="hero_div">
             <img class="heropic" src="images/hero_pic.jpeg" alt="Strawberry">
             <a href="fresh.html"><button class="mixBtn">Make Fruit Juice Mix!</button></a>
         </div>
-        <section>
+        <div class="crops">
+            <img src="images/berries.jpg" alt="Berries">
+            <img src="images/cattle.jpg" alt="Cattles">
+            <img src="images/vegetable.jpg" alt="Vegetable">
+            <img src="images/cucurbits.jpg" alt="Pumkins">
+        </div>
+        <section class="area_div">
             <h2>Orange County</h2>
             <img class="pic" src="images/oc.jpg" alt="Orange County">
             <p>Orange County is located between Los Angeles and San Diego in Southern California. It was once the largest agricultural producing region in America. Orange County is constantly producing enormous crops including but not limited to strawberries, ornamental trees, citrus, and miscellaneous vegetables.</p>
         </section>
-        <section>
+        <section class="w_div">
             <h2>Weather</h2>
             <div class="weather_div">
                 <div class="weather">
+                    <h3>Today's Weather</h3>
                     <img id="weather_img" src="" alt="Weather Icon"></img>
                     <div id="temperature"></div>
                     <span id="weather_des"></span>
@@ -60,9 +68,11 @@
                 <span id="forecast"></span>
             </div>
         </section>
-        <section>
+        <section class="order_div">
             <h2>Order Submitted</h2>
+            <p>You have not ordered yet.</p>
         </section>
+        <div class="img_orange"><img src="images/orange.jpg" alt="Orange"></div>
     </main>
     <footer>
         <img class="ft_logo" src="images/bflogo.png" alt="Bountiful Foods logo">
@@ -74,8 +84,13 @@
             <p><a href="https://www.google.com.hk/maps/place/Orange+County,+CA,+USA/@33.640814,-117.7803964,10z/data=!3m1!4b1!4m5!3m4!1s0x80dc925c54d5f7cf:0xdea6c3618ff0d607!8m2!3d33.7174708!4d-117.8311428">Location Map</a></p>
         </div>
         <hr>
-        <div>&copy;2002 Bountiful Foods</div>
-        <div class="last_update"></div>
+        <div class="ft_lm">
+            <div id="ft_div1"></div>
+            <div id="ft_div2"></div>
+            <div id="ft_div3">Anson Lam</div>
+            <div id="ft_div4">WDD 230 Final Project</div>
+            <div id="lastmodified"></div>
+        </div>
     </footer>
 </body>
 </html>

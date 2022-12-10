@@ -1,11 +1,40 @@
 @media only screen and (min-width: 35rem) {
     
+    .mixBtn {
+        font-size: 2rem;
+    }
+    .crops {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .crops img {
+        justify-self: center;
+        align-self: center;
+        width: 90%;
+    }
     #ft_div1, #ft_div3, #ft_div4 {
         display: none;
     }
     #ft_div2 {
         display: block;
     }
-
+    .home_main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .hero_div, .crops{
+        grid-column: 1/3;
+    }
+    .area_div {
+        grid-row: 3/5;
+    }
+    .ft_info {
+        font-size: 1.2rem;
+    }
+    .ft_info p {
+        margin: 10px;
+    }
 
 }
