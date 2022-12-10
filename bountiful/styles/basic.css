@@ -1,6 +1,6 @@
 /* ----- share ----- */
 
-p, div, a, button {
+p, div, a, button, span {
     font-family: "Dosis", sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -75,7 +75,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #FF9F1C;
     color: #FFFFFF;
-    font-size: 1.2rem;
+    font-weight: bolder;
 }
 
 nav ul {display: none;}
@@ -89,12 +89,37 @@ main {
     display: grid;
     grid-template-columns: auto;
     min-width: 400px;
-
+    background-color: #FFE8CA;
+}
+section {
+    background-color: #FFFFFF;
 }
 
-
+footer {
+    background-color: #CBF3F0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    min-width: 400px;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
 .ft_logo {
-    width: 100px;
+    width: 100%;
+    border: 1px solid #2EC4B6;
+    position: relative;
+    left: 10px;
+}
+.ft_info {
+    margin-top: 10px;
+}
+.ft_info p {
+    margin: 8px;
+}
+footer hr {
+    width: 90%;
+    grid-column: 1/3;
 }
 
 /* ----- home ----- */
@@ -102,7 +127,7 @@ main {
     position: relative;
     width: 100%;
 }
-.heropic {
+.heropic, .pic {
     width: 100%;
 }
 
@@ -120,11 +145,60 @@ main {
 .mixBtn:hover {
     background-color: #249a8e;
 }
-.weather {
+section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px inset black;
+}
+section h2 {
+    font-size: 1.6rem;
+    color: #FF9F1C;
     text-align: center;
 }
+.weather_div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    margin: 5px;
+    justify-content: center;
+}
+.weather {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    align-items: center;
+    justify-content: center;
+}
+.weather hr {
+    width: 80%;
+    grid-column: 1/3;
+}
+#weather_img {
+    justify-self: center;
+    align-self: center;
+}
+#temperature {
+    font-size: 1.2rem;
+}
 #weather_des {
+    grid-column: 1/3;
+    text-align: center;
     text-transform: capitalize;
+    font-size: 1.2rem;
+}
+#humidity {
+    grid-column: 1/3;
+    text-align: center;
+}
+#forecast {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    align-items: center;
+}
+#forecast h3 {
+    margin: 0px;
+    grid-column: 1/3;
+    text-decoration: underline;
 }
 
 /* ----- site plan ----- */
