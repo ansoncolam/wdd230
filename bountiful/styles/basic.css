@@ -110,6 +110,7 @@ footer {
     border: 1px solid #2EC4B6;
     position: relative;
     left: 10px;
+    top: 10px;
 }
 .ft_info {
     margin-top: 10px;
@@ -120,6 +121,16 @@ footer {
 footer hr {
     width: 90%;
     grid-column: 1/3;
+}
+.ft_lm {
+    grid-column: 1/3;
+    text-align: center;
+}
+.ft_lm div {
+    margin: 8px;
+}
+#ft_div2 {
+    display: none;
 }
 
 /* ----- home ----- */

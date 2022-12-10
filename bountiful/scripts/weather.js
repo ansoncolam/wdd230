@@ -45,8 +45,6 @@ function displayResults(weatherData) {
 
 const now = new Date();
 const days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun", "Mon", "Tue"];
-console.log(days[now.getDay()])
-
 
 function displayforecast(weatherData) {
   const forecast = document.querySelector("#forecast");

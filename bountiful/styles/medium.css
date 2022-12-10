@@ -1,10 +1,11 @@
 @media only screen and (min-width: 35rem) {
     
-    body {
-        background-color: red;
-    }
-    .toggle {
+    #ft_div1, #ft_div3, #ft_div4 {
         display: none;
     }
+    #ft_div2 {
+        display: block;
+    }
+
 
 }
