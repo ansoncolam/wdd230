@@ -1,60 +1,77 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 1024px) {
 
-    .ft_lm {
-        display: flex;
-    }
-    .ft_info {
-        font-size: 2rem;
-    }
-    .ft_info p {
-        margin: 15px;
+    body {
+        max-width: 2100px;
     }
     .home_main {
         display: grid;
-        grid-template-columns: 50px 200px auto 400px 50px;
+        grid-template-columns: auto 300px 400px 300px auto;
+        grid-template-rows: auto 450px auto;
+        margin-top: 70px;
     }
     .hero_div {
-        grid-column: 2/4;
-        margin: 10px;
+        grid-column: 3/5;
+        margin: 5px 5px 5px 0px;
         width: fit-content;
-        align-self: center;
-        justify-self: center;
+    }
+    .area_div {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 5px;
+    }
+    .area_div p {
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .crops{
         grid-column: 2/3;
         grid-row: 2/4;
         display: flex;
         flex-direction: column;
+        margin: 0px 5px 5px 5px;
     }
-    .crops img:nth-child(4) {
+    .crops img {
+        width: 290px;
+    }
+    .crops img:nth-child(2) {
         display: none;
     }
 
-    .img_orange {
+    .extf2 {
+        display: unset;
+        grid-column: 4/5;
+        grid-row: 3/4;
+        margin: 0px 5px 5px 0px;
+    }
+    .extf2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .extf1 {
         display: unset;
         grid-column: 3/4;
+        grid-row: 2/3;
+        margin: 0px 5px 5px 0px;
+    }
+    .extf1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .order_div{
+        grid-column: 3/4;
         grid-row: 3/4;
-        margin: 5px;
-        /* align-self: center; */
-        height: 500%;
+        margin: 0px 5px 5px 0px;
     }
-    .img_orange img {
-        width: 98%;
-        margin: 5px;
-    }
-    .area_div {
-        grid-column: 4/5;
-        grid-row: 1/2; 
+    .order_div p {
         margin: 10px;
     }
-    .area_div p {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+
     .w_div {
         grid-column: 4/5;
-        grid-row: 2/4;
-        margin: 10px;
+        grid-row: 2/3;
+        margin: 0px 5px 5px 0px;
     }
     .weather_div {
         display: flex;
@@ -66,14 +83,24 @@
     #forecast div {
         margin: 5px;
     }
-    .order_div{
-        grid-column: 3/4;
-        grid-row: 2/3;
-        margin: 10px;
+
+    .ft_lm {
+        display: flex;
     }
-    .order_div p {
-        margin: 10px;
+    .ft_info {
+        font-size: 2rem;
     }
+    .ft_info p {
+        margin: 15px;
+    }
+
+
+
+
+
+
+
+
 
 
 
