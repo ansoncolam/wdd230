@@ -157,6 +157,9 @@ footer hr {
     width: 90%;
     margin-bottom: 0px;
 }
+.ftct_info {
+    display: none;
+}
 .ft_lm {
     text-align: center;
 }

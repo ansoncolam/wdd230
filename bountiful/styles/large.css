@@ -32,8 +32,12 @@
     }
     .crops img {
         width: 290px;
+        margin-top: 5px;
     }
-    .crops img:nth-child(2) {
+    .crops img:nth-child(1) {
+        margin-top: 0px;
+    }
+    .crops img:nth-child(4) {
         display: none;
     }
 
@@ -84,15 +88,35 @@
         margin: 5px;
     }
 
-    .ft_lm {
-        display: flex;
+
+    footer {
+        grid-template-columns: 10% 1fr 3% 1fr 3% 1fr 10%;
+    }
+    .ft_logo {
+        margin: 10px;
+        grid-column: 4/5;
+        position: unset;
     }
     .ft_info {
-        font-size: 2rem;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        font-size: 1.3rem;
     }
-    .ft_info p {
-        margin: 15px;
+    footer hr {
+        grid-column: 1/8;
     }
+    .ftct_info {
+        display: unset;
+        grid-column: 6/7;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .ft_lm {
+        display: flex;
+        grid-column: 1/8;
+    }
+
+
 
 
 
