@@ -230,25 +230,43 @@ footer hr {
     display: none;
 }
 
+#order_comment, #order_submit{
+    margin: 30px;
+    text-align: center;
+}
+#order_submit {
+    font-size: 5rem;
+    color: #FF9F1C;
+}
+
 /* ----- fresh ----- */
 
-
+.hidden {
+    display: none;
+}
+#order {
+    margin: 30px 0px;
+    padding: 0px;
+    min-width: 400px;
+}
 .fresh_hero_div {
     width: 100%;
 }
 .fresh_heropic {
     width: 100%;
+    min-width: 400px;
     height: 100%;
+    position: relative;
+    top: -48px;
+    z-index: 5;
 }
 .fresh_pic {
     grid-column: 2/4;
     width: 90%;
     margin: 20px;
 }
-.fresh_main h1 {
-    position: absolute;
-    top: 70px;
-    font-size: 2xsrem;
+.fresh_hero_div h1 {
+    font-size: 1.5rem;
     text-align: center;
     justify-self: center;
     margin: 0px;
@@ -257,6 +275,9 @@ footer hr {
     min-width: 360px;
     background-color: rgba(0, 0, 0, 0.5);
     animation: rainbow 1s infinite alternate;
+    position: relative;
+    top: 20px;
+    z-index: 6;
 }
 @keyframes rainbow {
     0% {color: red;}
@@ -341,7 +362,15 @@ footer hr {
 .contactus_main section img {
     width: 100%;
 }
+.contactus_main section img:nth-child(1) {
+    margin-top: 20px;
+}
+
+
+
+
 .contactus_main section div {
+    margin: 20px;
     padding: 20px;
 }
 .ctus_div p {
@@ -359,6 +388,9 @@ footer hr {
 .resource_main section div {
     text-align: center;
 }
+
+
+
 
 
 /* ----- site plan ----- */

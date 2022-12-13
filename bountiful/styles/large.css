@@ -71,6 +71,10 @@
     .order_div p {
         margin: 10px;
     }
+    #order_submit {
+        margin-top: 50px;
+        font-size: 10rem;
+    }
 
     .w_div {
         grid-column: 4/5;
