@@ -103,7 +103,29 @@
         grid-template-columns: repeat(4, 15px 150px);
     }
 
-    .contactus_main {
+    .contactus_main, .resource_main {
         padding-top: 75px;
+        display: grid;
+        grid-template-columns: 100px auto 100px;
+    }
+    .contactus_main h1, .resource_main h1 {
+        grid-column: 1/4;
+    }
+    .contactus_main section {
+        grid-column: 2/3;
+        max-width: 1000px;
+        justify-self: center;
+    }
+    .contactus_main section img {
+        width: 80%;
+    }
+    .resource_main {
+        padding-top: 75px;
+    }
+    .resource_main section {
+        grid-column: 2/3;
+        width: 100%;
+        max-width: 1000px;
+        justify-self: center;
     }
 }

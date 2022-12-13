@@ -77,7 +77,7 @@ nav ul li a:hover {
 nav ul {display: none;}
 nav ul.open {display: block;}
 
-.home_main, .fresh_main, .contactus_main {
+.home_main, .fresh_main, .contactus_main, .resource_main {
     display: grid;
     grid-template-columns: auto;
     min-width: 400px;
@@ -122,10 +122,10 @@ section h3 {
     right: 20%;
     font-size: 1.6rem;
     background-color: #2ec4b6;
-    color: #FFFFFF;
     padding: 15px;
     border-radius: 12px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    animation: rainbow 1s infinite alternate;
 }
 .mixBtn:hover {
     background-color: #249a8e;
@@ -240,10 +240,15 @@ footer hr {
     width: 100%;
     height: 100%;
 }
+.fresh_pic {
+    grid-column: 2/4;
+    width: 90%;
+    margin: 20px;
+}
 .fresh_main h1 {
     position: absolute;
     top: 70px;
-    font-size: 1.5rem;
+    font-size: 2xsrem;
     text-align: center;
     justify-self: center;
     margin: 0px;
@@ -251,9 +256,9 @@ footer hr {
     width: 100%;
     min-width: 360px;
     background-color: rgba(0, 0, 0, 0.5);
-    animation: fresh_title 1s infinite alternate;
+    animation: rainbow 1s infinite alternate;
 }
-@keyframes fresh_title {
+@keyframes rainbow {
     0% {color: red;}
     20% {color: yellow;}
     40% {color: aqua;}
@@ -310,7 +315,7 @@ footer hr {
     min-width: 280px;
     font-size: 1.6rem;
     background-color: #2ec4b6;
-    color: #FFFFFF;
+    animation: rainbow 1s infinite alternate;
     padding: 15px;
     border-radius: 12px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -327,13 +332,33 @@ footer hr {
 .contactus_main {
     padding-top: 5px;
 }
+.contactus_main h1 {
+    text-align: center;
+}
 .contactus_main section {
     text-align: center;
+}
+.contactus_main section img {
+    width: 100%;
 }
 .contactus_main section div {
     padding: 20px;
 }
+.ctus_div p {
+    margin: 0px;
+}
+.gmap_iframe {
+    height: 300px;
+}
 
+/* ----- resource ----- */
+
+.resource_main h1 {
+    text-align: center;
+}
+.resource_main section div {
+    text-align: center;
+}
 
 
 /* ----- site plan ----- */

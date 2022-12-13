@@ -12,6 +12,7 @@
     <script src="scripts/footer.js" defer></script>
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/fruit.js" defer></script>
+    <script src="scripts/lazyload.js" defer></script>
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
@@ -42,13 +43,13 @@
     <main class="fresh_main">
         <h1>Specialize Your Fruit Juice Mix</h1>
         <div class="fresh_hero_div">
-            <img class="fresh_heropic" src="images/fresh_pic.webp" alt="Fruit Jurice">
+            <img class="fresh_heropic" src="images/placeholder.png" data-src="images/fresh_pic.webp" alt="Fruit Jurice">
         </div>
         <section>
             <form method="get">
                 <fieldset class="form">
                     <h2>Step 1: Choose Your Fruit</h2>
-                    <h3>(choose up to 3 fruits of your choice)</h3>
+                    <h3>(choose up to 3 fruits of your choice*)</h3>
                     <div class="flist"></div>
                 </fieldset>
                 <fieldset class="form">
@@ -73,6 +74,7 @@
                     <input type="hidden" name="fdatetime">
                 </fieldset>
                 <span class="remarks">*required information</span>
+                <img class="fresh_pic" src="images/placeholder.png" data-src="images/fresh_pic2.webp" alt="Fruit Jurice">
             </form>
         </section>
     </main>
@@ -83,7 +85,6 @@
             <p>Santa Ana, CA 92701</p>
             <p>info@bffoods.com</p>
             <p>+1 714-571-2300</p>
-            <p><a href="https://www.google.com.hk/maps/place/Orange+County,+CA,+USA/@33.640814,-117.7803964,10z/data=!3m1!4b1!4m5!3m4!1s0x80dc925c54d5f7cf:0xdea6c3618ff0d607!8m2!3d33.7174708!4d-117.8311428">Location Map</a></p>
         </div>
         <div class="ftct_info">
             <p>Welcome to contact us by:</p>
