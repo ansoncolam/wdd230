@@ -91,8 +91,19 @@
         display: block;
     }
 
+    .fresh_main {
+        margin-top: 70px;
+    }
+    .fresh_main h1 {
+        top: 190px;
+        font-size: 3rem;
+        padding: 20px 0px 20px 0px;
+    }
+    .flist {
+        grid-template-columns: repeat(4, 15px 150px);
+    }
 
-
-
-
+    .contactus_main {
+        padding-top: 75px;
+    }
 }

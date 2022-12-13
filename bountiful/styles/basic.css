@@ -1,6 +1,6 @@
 /* ----- share ----- */
 
-p, div, a, button, span {
+p, div, a, button, span, label {
     font-family: "Dosis", sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -77,11 +77,14 @@ nav ul li a:hover {
 nav ul {display: none;}
 nav ul.open {display: block;}
 
-.home_main {
+.home_main, .fresh_main, .contactus_main {
     display: grid;
     grid-template-columns: auto;
     min-width: 400px;
     background-color: #ffeace;
+}
+.fresh_main section {
+    margin-top: 5px;
 }
 section {
     background-color: #FFFFFF;
@@ -91,6 +94,9 @@ section {
 section h2 {
     font-size: 1.8rem;
     color: #FF9F1C;
+    text-align: center;
+}
+section h3 {
     text-align: center;
 }
 .hero_div {
@@ -223,6 +229,112 @@ footer hr {
 .extf1, .extf2 {
     display: none;
 }
+
+/* ----- fresh ----- */
+
+
+.fresh_hero_div {
+    width: 100%;
+}
+.fresh_heropic {
+    width: 100%;
+    height: 100%;
+}
+.fresh_main h1 {
+    position: absolute;
+    top: 70px;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-self: center;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    min-width: 360px;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fresh_title 1s infinite alternate;
+}
+@keyframes fresh_title {
+    0% {color: red;}
+    20% {color: yellow;}
+    40% {color: aqua;}
+    60% {color: Chartreuse;}
+    80% {color: pink;}
+    100% {color: AliceBlue}
+}
+.form {
+    margin: 0px;
+    padding: 10px 10px 20px 10px;
+    border: none;
+}
+.form div {
+    justify-content: center;
+}
+.flist {
+    display: grid;
+    grid-template-columns: repeat(2, 15px 135px);
+    padding: 5px;
+}
+.flist label {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.f_info {
+    display: none;
+}
+.fctinfo, .fsi {
+    display: flex;
+    flex-direction: column;
+}
+.fctinfo label {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px 20px 5px;
+}
+.fctinfo input {
+    height: 2.5rem;
+    border-radius: 5px;
+    padding: 0px 0px 0px 10px;
+    border: solid #FF9F1C;
+}
+.fsi textarea {
+    height: 100px;
+    border-radius: 5px;
+    border: solid #FF9F1C;
+    margin: 5px;
+    padding: 5px 0px 0px 10px;
+}
+.submit_div {
+    text-align: center;
+}
+.orderBtn {
+    min-width: 280px;
+    font-size: 1.6rem;
+    background-color: #2ec4b6;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.orderBtn:hover {
+    background-color: #249a8e;
+}
+.remarks {
+    font-style: italic;
+}
+
+/* ----- countact us ----- */
+
+.contactus_main {
+    padding-top: 5px;
+}
+.contactus_main section {
+    text-align: center;
+}
+.contactus_main section div {
+    padding: 20px;
+}
+
+
 
 /* ----- site plan ----- */
 

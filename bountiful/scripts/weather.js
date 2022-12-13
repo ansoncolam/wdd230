@@ -43,7 +43,6 @@ function displayResults(weatherData) {
 
 // ---------- Forecast ----------
 
-const now = new Date();
 const days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun", "Mon", "Tue"];
 
 function displayforecast(weatherData) {
