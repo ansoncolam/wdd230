@@ -185,7 +185,7 @@ function clickButton() {
   email.innerHTML = `Email: ${document.getElementsByName("form_email")[0].value}`;
 
   let phone = document.createElement("div");
-  phone.innerHTML = `Phone: ${document.getElementsByName("form_phone")[0].valu}`;
+  phone.innerHTML = `Phone: ${document.getElementsByName("form_phone")[0].value}`;
 
   let special = document.createElement("div");
   special.innerHTML = `Special Instruction: ${document.getElementsByName("form_message")[0].value}`;
@@ -202,13 +202,13 @@ function clickButton() {
   if (j == 0) {
     alert("Please select at least 1 fruit.");
     return;
-  } else if (document.getElementById("form_name").innerText === "") {
+  } else if (document.getElementById("form_name").value === "") {
     alert("Please enter your name.");
     return;
-  } else if (document.getElementById("form_email").innerText === "") {
+  } else if (document.getElementById("form_email").value === "") {
     alert("Please enter your email address.");
     return;
-  } else if (document.getElementById("form_phone").innerText === "") {
+  } else if (document.getElementById("form_phone").value === "") {
     alert("Please enter your phone number.");
     return;
   }
