@@ -17,15 +17,21 @@
 </head>
 <body>
     <header>
-        <div name="order">
+        <div class="menu_div">
             <button id="menuBtn">
                 <span>&#9776;</span>
                 <span>&#9932;</span>
             </button>
         </div>
-        <div class="logo_div"><a href="index.html"><img class="logo" src="images/bflogo2.png" alt="Bountiful Foods Logo"></a></div>
+        <div class="logo_div">
+            <a href="index.html">
+                <img class="logo" src="images/bflogo2.png" alt="Bountiful Foods Logo">
+            </a>
+        </div>
         <div class="title">
-            <h1>Bountiful Foods</h1>
+            <a href="index.html">
+                <h1>Bountiful Foods</h1>
+            </a>
         </div>
         <div class="sm_div">
             <a href="https://www.instagram.com"><img class="sm_logo" src="images/ig_logo.png" alt="Instagram Logo"></a>
@@ -43,39 +49,40 @@
     <section id="order" class="hidden"></section>
     <main class="fresh_main">
         <div class="fresh_hero_div">
-            <h1>Specialize Your Fruit Juice Mix</h1>
             <img class="fresh_heropic" src="images/placeholder.png" data-src="images/fresh_pic.webp" alt="Fruit Jurice">
+            <h1>Specialize Your Fruit Juice Mix</h1>
         </div>
         <section>
             <form>
                 <fieldset class="form">
-                    <h2>Step 1: Choose Your Fruit</h2>
-                    <h3>(choose up to 3 fruits of your choice*)</h3>
+                    <h2>Step 1: Choose Your Ingredients</h2>
+                    <h3>(you may choose up to 3 fruits*)</h3>
                     <div class="flist"></div>
                 </fieldset>
                 <fieldset class="form">
-                    <h2>Step 2: Enter Contact Info</h2>
+                    <h2>Step 2: Enter Your Contact Info</h2>
                         <div class="fctinfo">
-                            <label>First Name*<input type="text" name="form_name"></label>
-                            <label>Email*<input type="email" name="form_email" placeholder="youremail@gmail.com"></label>
-                            <label>Phone*<input type="tel" name="form_phone"></label>
+                            <label>First Name*<input type="text" name="form_name" required></label>
+                            <label>Email*<input type="email" name="form_email" placeholder="youremail@gmail.com" required></label>
+                            <label>Phone*<input type="tel" name="form_phone" required></label>
                         </div>
                 </fieldset>
                 <fieldset class="form">
-                    <h2>Step 3: Special Instruction</h2>
-                    <h3>(if any)</h3>
+                    <h2>Step 3: Special Instructions for Us</h2>
                     <div class="fsi">
-                        <textarea id="form_message"></textarea>
+                        <textarea id="form_message" name="form_message"></textarea>
                     </div>
                 </fieldset>
                 <fieldset class="form">
                     <div class="submit_div">
-                        <input type="button" name="form_button" class="orderBtn" onclick="clickButton()" value="Order Your Drink Now!">
+                        <input type="button" name="form_button" class="orderBtn" onclick="clickButton()" value="Order Your Drink!">
                     </div>
                     <input type="hidden" name="form_datetime">
                 </fieldset>
                 <span class="remarks">*required information</span>
-                <img class="fresh_pic" src="images/placeholder.png" data-src="images/fresh_pic2.webp" alt="Fruit Jurice">
+                <div class="fresh_pic_div">
+                    <img class="fresh_pic" src="images/placeholder.png" data-src="images/fresh_pic2.webp" alt="Fruit Jurice">
+                </div>
             </form>
         </section>
     </main>
