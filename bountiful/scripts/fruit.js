@@ -155,6 +155,41 @@ function getFruit() {
 
 function clickButton() {
 
+  let order = document.getElementById("order");
+
+  let message = document.createElement("h2");
+  message.textContent = "Your order has been submitted!";
+
+  let title = document.createElement("h3");
+  title.textContent = "Order Information";
+
+  let sub = document.createElement("div")
+  sub.textContent = "Your Fruit Juice Mix Ingredients:"
+
+  let ul = document.createElement("ul")
+  ul.setAttribute("id", "your_fruit");
+
+  let sub_2 = document.createElement("div")
+  sub_2.textContent = "Nutrition Facts of Your Mix:"
+
+  let ul_2 = document.createElement("ul")
+  ul_2.setAttribute("id", "your_summary");
+
+  let order_date = document.createElement("div")
+  order_date.innerText = `Order Date: ${now.getFullYear()}/${now.getMonth() + 1}/${now.getDate()}`;
+
+  let name = document.createElement("div");
+  name.innerHTML = `Name: ${document.getElementsByName("form_name")[0].value}`;
+
+  let email = document.createElement("div");
+  email.innerHTML = `Email: ${document.getElementsByName("form_email")[0].value}`;
+
+  let phone = document.createElement("div");
+  phone.innerHTML = `Phone: ${document.getElementsByName("form_phone")[0].valu}`;
+
+  let special = document.createElement("div");
+  special.innerHTML = `Special Instruction: ${document.getElementsByName("form_message")[0].value}`;
+
   let j = 0;
 
   for (let i = 1; i < 40; i++) {
@@ -167,36 +202,16 @@ function clickButton() {
   if (j == 0) {
     alert("Please select at least 1 fruit.")
     return;
+  } else if (document.getElementById("form_name").innerText === "") {
+    alert("Please enter your name.")
+    return;
+  } else if (document.getElementById("form_email").innerText === "") {
+    alert("Please enter your email address.")
+    return;
+  } else if (document.getElementById("form_phone").innerText === "") {
+    alert("Please enter your phone number.")
+    return;
   }
-  
-  let order = document.getElementById("order");
-  let message = document.createElement("h2");
-  let title = document.createElement("h3");
-  let sub = document.createElement("div")
-  let ul = document.createElement("ul")
-  ul.setAttribute("id", "your_fruit");
-  let sub_2 = document.createElement("div")
-  let ul_2 = document.createElement("ul")
-  ul_2.setAttribute("id", "your_summary");
-  let order_date = document.createElement("div")
-  order_date.innerText = `Order Date: ${now.getFullYear()}/${now.getMonth() + 1}/${now.getDate()}`;
-
-  let name = document.createElement("div");
-  let email = document.createElement("div");
-  let phone = document.createElement("div");
-  let special = document.createElement("div");
-
-
-  message.textContent = "Your order has been submitted!";
-  title.textContent = "Order Information";
-  sub.textContent = "Your Fruit Juice Mix Ingredients:"
-  sub_2.textContent = "Nutrition Facts of Your Mix:"
-
-  name.innerHTML = `Name: ${document.getElementsByName("form_name")[0].value}`;
-  email.innerHTML = `Email: ${document.getElementsByName("form_email")[0].value}`;
-  phone.innerHTML = `Phone: ${document.getElementsByName("form_phone")[0].valu}`;
-  special.innerHTML = `Special Instruction: ${document.getElementsByName("form_message")[0].value}`;
-
 
   document.getElementById("order").removeAttribute("class");
   document.querySelector(".fresh_main").setAttribute("class", "hidden");
