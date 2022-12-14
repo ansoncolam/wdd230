@@ -232,7 +232,7 @@ function clickButton() {
 
   getFruit();
 
-  if (special != null) {
+  if (special !== "") {
     order.appendChild(special);
   }
 
