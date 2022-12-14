@@ -200,16 +200,16 @@ function clickButton() {
   }
 
   if (j == 0) {
-    alert("Please select at least 1 fruit.")
+    alert("Please select at least 1 fruit.");
     return;
   } else if (document.getElementById("form_name").innerText === "") {
-    alert("Please enter your name.")
+    alert("Please enter your name.");
     return;
   } else if (document.getElementById("form_email").innerText === "") {
-    alert("Please enter your email address.")
+    alert("Please enter your email address.");
     return;
   } else if (document.getElementById("form_phone").innerText === "") {
-    alert("Please enter your phone number.")
+    alert("Please enter your phone number.");
     return;
   }
 
